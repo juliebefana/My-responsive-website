@@ -130,3 +130,26 @@
   p {
     font-family: 'Nunito', sans-serif;
   }
+
+    /* Slide in left text - Animation 1 */
+
+  #slide {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #0E8388;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-300px);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  #slide {
+    animation: slideInLeft 1s ease-in 1s both;
+    transform: translateX(-150px);
+  }
