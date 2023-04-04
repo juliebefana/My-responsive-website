@@ -27,10 +27,11 @@
     font-family: 'Dancing Script', cursive;
   }
 
-  .contact-form h1 {
+  #contact-form h1 {
     color: #0E8388;
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
+    text-align: center;
   }
 
   .main-content {
@@ -79,9 +80,11 @@
   }
   
   nav a {
-    text-decoration: none;
+    text-decoration:none;
+    text-transform: uppercase;
     color: #0E8388;
     text-align: left;
+    font-size: 13px;
   }
 
   header nav ul li a:hover {
@@ -95,20 +98,15 @@
 
   .login {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 30px;
     margin: 20px;
     padding: 30px;
 
   }
-  
-  form {
-    display: grid;
-    gap: 15px;
 
 
-    margin-top: 20px;
-  }
   
   label {
     font-weight: bold;
