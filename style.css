@@ -277,3 +277,19 @@
     }
   }
 
+  @media only screen and (max-width: 400px) {
+    #form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .showcase {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .intro {
+      min-height: auto;
+    }
+
+  }
