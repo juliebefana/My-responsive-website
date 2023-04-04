@@ -27,6 +27,12 @@
     font-family: 'Dancing Script', cursive;
   }
 
+  .contact-form h1 {
+    color: #0E8388;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+  }
+
   .main-content {
     display: grid;
     gap: 30px;
@@ -89,7 +95,7 @@
 
   .login {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    justify-items: center;
     gap: 30px;
     margin: 20px;
     padding: 30px;
@@ -98,8 +104,9 @@
   
   form {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    gap: 15px;
+
+
     margin-top: 20px;
   }
   
@@ -118,6 +125,11 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0E8388;
   }
   
   footer {
