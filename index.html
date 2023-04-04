@@ -73,29 +73,38 @@
               </li>
             </section>
 
-<!-----Contact form---->
+<!-----Creating new account---->
 
-            <section id="contact-form">
-              <div class="info">
-                <h1>Create an account</h1>
+            <section class="form">
+              <div class="infobox">Welcome to Julia's digital agency! We're thrilled to have you here. Our platform is designed to help you with creating user-friendly interface. So go ahead, create your account, and start experiencing all that we have to offer!</div>
+              <div class="register"><form>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+              
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+              
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+              
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              
+                <button type="submit">Register</button>
               </div>
-              <div class="login">
-                <div class="login-info"><p>Welcome to Julia's digital agency! We're thrilled to have you here. Our platform is designed to help you with designing user-friendly interface. So go ahead, create your account, and start experiencing all that we have to offer!</p></div>
-                <div class="form">
-                  <form>
-                    <label for="name">First Name:</label>
-                    <input type="text" id="name" name="name"><br><br>
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName"><br><br>
-                    <label for="age">Age:</label>
-                    <input type="number" id="age" name="age"><br><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br><br>
-                    <button type="submit">Create an account</button>
-                  </form>
-                </div>  
-              </div>
-          </section>
+              </form>
+              
+            </section>
 
           
       </div>         
