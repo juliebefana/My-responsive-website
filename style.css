@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin-top: 15px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    min-height: 100vh;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 20px;
+    background-color: #CBE4DE;
+  }
+
+  .logo h1 {
+    color: #0E8388;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .main-content {
+    display: grid;
+    gap: 30px;
+  }
+
+  .intro {
+    min-height: 400px;
+    background:url("../images/banner.png") no-repeat;
+    background-size: contain;
+  }
+
+  .skill-box {
+    text-align: center;
+  }
+
+  .showcase {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .skill {
+    padding: 10px;
+  }
+
+  .skill img {
+    width: 110px;
+  }
+
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-right: 1px solid black;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0E8388;
+    text-align: left;
+  }
+
+  header nav ul li a:hover {
+    color: orange;
+}
+  
+  main {
+    
+    padding: 0px;
+  }
+
+  .login {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    margin: 20px;
+    padding: 30px;
+
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 5px 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Nunito', sans-serif;
+  }
