@@ -97,20 +97,31 @@
 
 /*   ------ Register form---------- */
 
-  .form {
+  #form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 30px;
-    width: 70%;
-    margin: 40px auto;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 70px;
+    width: 80%;
     padding: 15px;
+    margin: 30px auto;
+  }
+
+  .infobox img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .infobox h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #0E8388;
   }
 
   .register form {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
+    margin-top: 30px;
   }
 
   input[type="text"], input[type="email"], input[type="password"], textarea {
